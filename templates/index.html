@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Welcome!</title>
+        <link rel="stylesheet" href="../static/css/style.css">
+    </head>
+    <body>
+        <h1>Hello, {{data.user.first_name}} {{data.user.last_name}}</h1>
+        <p>We can build a full webpage here</p>
+        <form method="POST" action="sendNickname">
+            <input type="text" name="nickname" placeholder="Enter your nickname"/>
+            <input type="submit" value="Submit"/>
+        </form>
+        
+    </body>
+</html>
